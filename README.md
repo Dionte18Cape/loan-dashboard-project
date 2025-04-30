@@ -1,5 +1,3 @@
-# loan-dashboard-project
-
 # Loan Dashboard Project
 
 This project analyzes loan applicant data to uncover insights that can help financial institutions make data-driven decisions on loan approvals. The analysis spans applicant demographics, financial profiles, credit history, and loan status, culminating in an interactive dashboard built in Power BI.
