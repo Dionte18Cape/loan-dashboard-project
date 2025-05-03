@@ -51,8 +51,9 @@ To identify patterns in loan approval likelihood based on applicant attributes a
 ---
 
 ## 🖼️ Dashboard Preview  
+## 🖼️ Dashboard Preview  
 📸 *Click the image below to view full dashboard slides (PDF)*  
-[![Loan Dashboard Preview](images/loan_thumbnail.png)](school_vis.pdf)
+[![Loan Dashboard Preview](images/loan_thumbnail.png)](loan__dashboard.pdf)
 
 ---
 
