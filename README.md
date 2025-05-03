@@ -1,6 +1,9 @@
-# Loan Dashboard Project
+# 💰 Loan Approval Dashboard 📊  
+**Created by: Dionte Capleton**
 
-This project analyzes loan applicant data to uncover insights that can help financial institutions make data-driven decisions on loan approvals. The analysis spans applicant demographics, financial profiles, credit history, and loan status, culminating in an interactive dashboard built in Power BI.
+This project explores loan approval trends using Oracle SQL, Python (Pandas), and Power BI. It analyzes which applicant traits—such as credit history, income, gender, and location—most influence approval outcomes using a dataset of 614 applications.
+
+---
 
 ## Objective
 
@@ -11,20 +14,12 @@ To identify patterns in loan approval likelihood based on applicant attributes a
 
 ---
 
-## Tools Used
-- **SQL (Oracle SQL Developer)** – Data exploration and aggregation
-- **Python (Google Colab)** – Data preprocessing, cleaning, and exploratory data analysis
-- **Power BI** – Interactive dashboard creation and visualization
-- **GitHub** – Version control and project publishing
-
----
-
-## Key Insights
-- Applicants with a **credit history** had significantly higher approval rates.
-- **Semiurban regions** had the highest approval percentages.
-- **Female applicants** showed slightly higher approval rates in certain regions.
-- Most common **loan term** was 360 months.
-- Average applicant income was around **$5,000**, with median loan amounts around **$130**.
+## 📂 Folder Structure
+- 🟨 `PowerBI/` - Power BI `.pbix` dashboard
+- 🧠 `SQL/` - SQL queries for analysis
+- 🐍 `Python/` - Data cleaning + export
+- 🖼️ `images/` - Thumbnails + dashboard slides
+- 📄 `data/` - Cleaned CSV datasets
 
 ---
 
@@ -42,22 +37,30 @@ To identify patterns in loan approval likelihood based on applicant attributes a
 
 ---
 
-## Dashboard Overview
-
-The Power BI dashboard includes:
-1. **Loan Insights Overview** – Approval rates by gender, property area, and credit history
-2. **Applicant Financials** – Income distribution, average loan amount, salary estimates
-3. **Business Challenge Slide** – A mock scenario solved using visual analytics
-4. **Summary Slide** – Final recommendations and takeaways
+## 🌟 Key Insights
+- ✅ Applicants with strong credit histories had the highest approval rates.
+- 🏙️ Semiurban applicants saw notably high loan approval.
+- 👩‍💼 Female applicants slightly outperformed male counterparts.
+- 💵 Income and property area also influenced approval outcomes.
 
 ---
 
-## How to Explore the Project
+## ❓ Business Problem Tackled  
+**Which applicant traits should a bank prioritize to speed up loan approvals and reduce risk?**
 
-1. Clone the repository or download the files.
-2. Open `loan_project.ipynb` in [Google Colab](https://colab.research.google.com) to explore the Python pipeline.
-3. Use `Loan2P.sql` in Oracle SQL Developer to view all original SQL queries.
-4. Open `loan_dashboard.pbix` in Power BI Desktop to explore the interactive dashboard.
+---
+
+## 🖼️ Dashboard Preview  
+📸 *Click the image below to view full dashboard slides (PDF)*  
+[![Loan Dashboard Preview](images/loan_thumbnail.png)](school_vis.pdf)
+
+---
+
+## 🚀 How to Use
+1. Open `school_vis.pbix` in Power BI _or_ view `school_vis.pdf`.
+2. Filter by gender, credit score, property area, etc.
+3. Use SQL queries to explore data joins and logic.
+
 
 ---
 
@@ -71,5 +74,4 @@ The Power BI dashboard includes:
 
 **Dionte Capleton**  
 *Aspiring Data Analyst | SQL, Python, Power BI*
-
 
